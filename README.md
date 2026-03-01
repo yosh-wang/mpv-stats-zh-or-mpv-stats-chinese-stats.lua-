@@ -1,41 +1,42 @@
-<div align="center">
+步骤 1：编辑主配置文件
+Step 1: Edit the Main Configuration File
 
-# 🎯 mpv-stats-zh
-### 把你的 mpv 统计信息变成中文！
+在你的 mpv.conf 文件中，添加或确认以下一行。这行代码会关闭 mpv 内置的英文版统计脚本，为我们的中文版脚本让路。
+In your mpv.conf file, add or ensure the following line is present. This disables the built-in English stats script to make way for our Chinese version.
 
-[![GitHub license](https://img.shields.io/github/license/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-?style=flat-square)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-?style=flat-square)](https://github.com/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-?style=flat-square)](https://github.com/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-/issues)
-[![Maintenance](https://img.shields.io/badge/维护中-是的-brightgreen?style=flat-square)](https://github.com/laodaoxp/mpv-stats-zh-or-mpv-stats-chinese-stats.lua-)
+ini
+# 关闭内置统计脚本 [stats.lua] (默认启用)，以使用外部中文版
+# Disable the built-in stats script [stats.lua] (enabled by default) to use the external Chinese version
+load-stats-overlay=no
 
-</div>
+步骤 2：放置中文版脚本
+Step 2: Place the Chinese Script
 
----
+将我们翻译好的 stats.lua 文件，放入 mpv 的脚本文件夹中。
+Put our translated stats.lua file into mpv's scripts folder.
 
-## 📖 项目简介
+目标位置 / Destination:
+portable_config/scripts/
 
-这是一个 **mpv播放器统计信息脚本** 的中文翻译版。  
-原版由 [Argon-](https://github.com/Argon-) 开发，本版本将所有界面文字翻译为中文，方便中文用户使用。
+绝对路径示例 / Absolute path example:
 
-> 🎨 **界面清爽 | 功能完整 | 即装即用**
+Windows: C:\Users\你的用户名\AppData\Roaming\mpv\scripts\
 
----
+Linux/macOS: ~/.config/mpv/scripts/
 
-## ✨ 功能特点
+步骤 3：开始享用
+Step 3: Enjoy!
 
-| 功能 | 说明 |
-|:---|:---|
-| 🌐 **全中文界面** | 所有显示文字、提示信息都翻译为中文 |
-| 🚀 **功能完整** | 保留原版所有功能，无任何删减 |
-| 🎯 **即装即用** | 复制到 scripts 文件夹即可使用 |
-| 🔧 **兼容性好** | 可与任何 mpv 综合配置共存 |
+完成以上两步，你的配置就大功告成了！现在，无论你使用的基础综合配置是什么，都可以：
+Once these two steps are done, your setup is complete! Now, regardless of the base comprehensive config you're using, you can:
 
----
+按 i 键：临时查看全中文的播放统计信息。
+Press i: Temporarily view the playback statistics in full Chinese.
 
-## 📦 安装步骤
+按 I (大写) 键：让统计信息常驻屏幕。
+Press Shift + I: Keep the statistics permanently on screen.
 
-### 方法一：快速安装（推荐）
+按 1-5 或 0 键：在不同信息页面间切换。
+Press 1-5 or 0: Switch between different information pages.
 
-```bash
-# 1. 下载 stats.lua 文件
-# 2. 放入 mpv 的 scripts 文件夹
+
