@@ -32,7 +32,9 @@ Step 3: Enjoy!
  Once these two steps are done, your setup is complete! Now, regardless of the base comprehensive config you're using, you can:
 
 按 i 键：临时查看全中文的播放统计信息。 Press i: Temporarily view the playback statistics in full Chinese.
+
 按 I (大写) 键：让统计信息常驻屏幕。 Press Shift + I: Keep the statistics permanently on screen.
+
 按 1-5 或 0 键：在不同信息页面间切换。 Press 1-5 or 0: Switch between different information pages.
 
 
