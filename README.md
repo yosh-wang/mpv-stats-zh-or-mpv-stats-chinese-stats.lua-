@@ -33,8 +33,6 @@ Original English file: [mpv-player/mpv/player/lua/stats.lua](https://github.com/
   <img width="600" alt="Stats interface" src="screenshot.png">
 </p>
 
-> **中文**：统计信息界面截图
-
 ---
 
 ## 📥 Installation
