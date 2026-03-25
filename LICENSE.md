@@ -1,4 +1,4 @@
-MIT License
+# MIT License
 
 Copyright (c) 2026 yosh-wang
 
@@ -20,7 +20,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-MIT 许可证
+---
+
+## 中文翻译
+
+**MIT 许可证**
 
 版权所有 (c) 2026 yosh-wang
 
