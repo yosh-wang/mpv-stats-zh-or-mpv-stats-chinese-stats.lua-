@@ -1,10 +1,47 @@
+# 🔒 Security Policy
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability in this project, please **do not** report it in a public issue.  
+Instead, contact the maintainer privately:
+
+- 📧 Email: **[yosh.wang@foxmail.com]**
+- 💬 GitHub: [@yosh-wang](https://github.com/yosh-wang)
+
+We will acknowledge your report within **7 business days**, assess the issue, and strive to release a fix or provide a response within **30 days**.
+
+---
+
+## 📢 Disclosure
+
+Once the issue is resolved, we will publish a new release and credit the reporter in the changelog (unless you prefer to remain anonymous).
+
+---
+
+## 📦 Scope
+
+This project is a Lua script that displays statistics for the mpv player. Potential security risks may include:
+
+- Arbitrary code injection if the script loads data from untrusted sources
+
+However, this script does **not** process user input, so the risk is extremely low.
+
+> ⚠️ If you discover a security issue related to mpv itself, please report it directly to the **mpv team** via their official channels.
+
+---
+
+<p align="center">
+  <sub>🔒 Thank you for helping keep this project safe</sub>
+</p>
+
+
 # 安全政策
 
 ## 报告安全漏洞
 
 如果你在本项目中发现了安全漏洞，请 **不要** 在公开 issue 中报告。请通过以下方式私下联系维护者：
 
-- 发送邮件至：yosh.wang@foxmail.com（请替换为你的邮箱）
+- 发送邮件至： **[yosh.wang@foxmail.com]**
 - 或通过 GitHub 私信联系 [@yosh-wang](https://github.com/yosh-wang)
 
 我们会在 7 个工作日内确认并评估问题，并尽力在 30 天内修复或给出回应。
