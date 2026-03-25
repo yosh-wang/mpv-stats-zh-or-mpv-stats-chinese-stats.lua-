@@ -25,5 +25,5 @@
 ## 📥 预览
 
 <p align="center">
-  <img width="600" alt="统计信息界面" src="https://github.com/user-attachments/assets/4a7e705a-9546-4561-a54a-fb17a6834524">
+  <img width="600" alt="统计信息界面" src="screenshot.png">
 </p>
