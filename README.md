@@ -11,7 +11,7 @@
 
 📄 Original English file：[stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)  
 
-📄 原版英文文件:[stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)  
+📄 原版英文文件：[stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)  
 
 ---
 
