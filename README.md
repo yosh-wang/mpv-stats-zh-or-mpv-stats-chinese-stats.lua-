@@ -40,7 +40,7 @@
 
 > **中文**：安装步骤
 
-### 1️⃣ Disable the built‑in English script  
+Disable the built‑in English script  
 Add the following line to your `mpv.conf`:
 
 ```ini
