@@ -1,3 +1,50 @@
+# 🤝 Contributing Guide
+
+Thank you for helping to improve this Chinese translation script!
+
+---
+
+## 📝 How to Contribute
+
+### 🐛 Report Issues
+
+If you find translation errors, layout issues, or missing features, please open an **Issue** and include:
+- The mpv version you are using
+- Steps to reproduce the problem
+
+### ✏️ Submit Translation Improvements
+
+1. **Fork** this repository
+2. Make changes to `stats.lua` – look for `_("...")` or modify the translated strings directly
+3. Test to ensure there are no syntax errors
+4. Open a **Pull Request** and describe your changes
+
+### 🔄 Sync with Upstream
+
+When the official mpv project updates `stats.lua`, check for new strings that need translation. You can compare differences using tools like `diff`.
+
+---
+
+## 📖 Translation Guidelines
+
+- Maintain **terminology consistency** (e.g., 缓存, 解码器, 帧率)
+- Keep original English punctuation style where possible
+- Technical terms may remain in English (e.g., HDR, VSync) as long as the context is clear
+
+---
+
+## 🛠️ Development Environment
+
+No special environment required. Any text editor works.  
+To test, place `stats.lua` in mpv’s `scripts` folder, play any video, and press `i` to verify the translation.
+
+---
+
+## ⚖️ License
+
+All contributions will be licensed under the same **MIT License** as this project.
+
+
 # 贡献指南
 
 感谢你愿意帮助改进这个中文翻译脚本！
