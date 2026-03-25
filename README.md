@@ -24,7 +24,7 @@
 
 ---
 
-p 对齐="居中">
+
   <img width="600" alt="统计信息界面" src="screenshot.png">
 </段>
 
