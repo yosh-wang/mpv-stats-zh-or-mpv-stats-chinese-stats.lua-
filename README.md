@@ -10,17 +10,18 @@
 >
 > – 将 mpv 内置统计脚本 `stats.lua` 的所有界面、提示和菜单全部中文化，让你更轻松地查看播放信息。
 
-Original English file: [mpv-player/mpv/player/lua/stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)
+原始英文文件：[mpv-player/mpv/player/lua/stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)
 
 ---
 
-## ✨ Features
 
-- **Chinese UI** – All stats info, menus, and tooltips are fully translated  
+##✨ 功能
+
+- **中文用户界面** – 所有统计数据信息、菜单和工具提示都已完全翻译  
   **中文界面** – 所有统计信息、菜单选项、按键提示均完整翻译
-- **Feature‑complete** – Synchronized with upstream, supports all hotkeys and page toggles  
+- **功能完整** – 与上游同步，支持所有热键和页面切换  
   **功能同步** – 与原版保持同步，支持所有快捷键和页面切换
-- **Plug and play** – Simple two‑step installation, no extra configuration  
+- **即插即用** – 简单的两步安装，无需额外配置  
   **即装即用** – 两步安装，无需额外配置
 - **Lightweight** – Single file, minimal overhead  
   **轻量高效** – 单文件，不占用额外资源
@@ -40,7 +41,7 @@ Original English file: [mpv-player/mpv/player/lua/stats.lua](https://github.com/
 > **中文**：安装步骤
 
 ### 1️⃣ Disable the built‑in English script
-Add the following line to your `mpv.conf`:
+在你的``mpv.conf``文件中添加以下行：
 
-```ini
-load-stats-overlay=no
+``` ini 
+加载统计覆盖=否
