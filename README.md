@@ -1,29 +1,42 @@
-### MPV Built-in Code Connection
-Untranslated original English file address: https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua
+# mpv 中文统计信息脚本 (stats.lua)
 
-### Display Image
-<img width="3837" height="2154" alt="WeChat Image_2026-03-01_112007_816" src="https://github.com/user-attachments/assets/34541caf-e934-4ef8-84f4-75fa6c37e707" />
+本仓库是 mpv 播放器内置统计脚本 `stats.lua` 的中文翻译版本。  
+原版文件：[mpv-player/mpv/player/lua/stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)
 
-### Usage Instructions
+## 特性
+- 完全中文化的统计信息显示
+- 支持所有原版功能（性能数据、视频/音频信息、帧率、缓存等）
+- 兼容 mpv 所有版本（v0.35+）
 
-Step 1: Edit the main configuration file
-In your mpv.conf file, add or confirm the following line. This line disables mpv's built-in English statistics script, making way for our Chinese version script.
+## 安装使用
 
-load-stats-overlay=no          # 启用 mpv 内置的统计信息脚本 [stats.lua]，默认 yes
+### 1. 禁用原版英文脚本
+在 mpv 配置文件 `mpv.conf` 中添加：
+load-stats-overlay=no
 
-Step 2: Place the Chinese version script
 
-Place our translated stats.lua file into mpv's scripts folder.
 
-Target location: portable_config/scripts/
+### 2. 放置脚本
+将 `stats.lua` 放入 mpv 的脚本目录：
+- **便携版**：`mpv.exe` 同级目录下 `portable_config/scripts/`
+- **安装版**：`%APPDATA%\mpv\scripts\`
 
-Step 3: Start using it
+### 3. 快捷键
+| 按键 | 功能 |
+|------|------|
+| `i` | 临时显示统计信息 |
+| `I` (大写) | 持续显示统计信息 |
+| `Shift+I` | 同 `I` |
+| `1`~`5` / `0` | 切换不同信息页面 |
 
-Press the i key: Temporarily view playback statistics in fully Chinese.
+## 文件说明
+- `stats.lua` — 主脚本（中文版）
+- `LICENSE` — MIT 许可证
+- `README.md` — 本文件
+- `CHANGELOG.md` — 更新日志
 
-Press the I (uppercase) key: Keep the statistics permanently displayed on the screen.
+## 贡献
+欢迎提交翻译改进或功能增强。详见 [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Press Shift + I: Keep the statistics permanently displayed on the screen.
-
-Press the 1-5 or 0 keys: Switch between different information pages.
-
+## 许可证
+本项目采用 MIT 许可证。原 mpv 项目采用 GPLv2+，本翻译脚本作为独立作品不继承其许可证。
