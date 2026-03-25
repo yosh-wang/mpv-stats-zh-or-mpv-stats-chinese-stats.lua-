@@ -20,7 +20,7 @@
 ### 1. 禁用原版英文脚本
 在 mpv.conf 中添加一行：
 ``` ini 
-加载统计覆盖=否
+load-stats-overlay=no
 
 ## 📥 预览
 
