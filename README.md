@@ -40,8 +40,11 @@
 
 > **中文**：安装步骤
 
-Disable the built‑in English script  
+Disable the built‑in English script
+**禁用内置英文脚本**
+
 Add the following line to your `mpv.conf`:
+**在你的 `mpv.conf` 文件中添加以下一行：**
 
 ```ini
 load-stats-overlay=no
