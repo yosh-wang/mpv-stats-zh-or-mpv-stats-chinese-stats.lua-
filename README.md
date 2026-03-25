@@ -15,17 +15,13 @@
 - **开箱即用**：简单两步安装，无需额外配置
 - **轻量高效**：单文件，不占用额外资源
 
+<img width="1880" height="1046" alt="ScreenShot_2026-03-25_160256_267" src="https://github.com/user-attachments/assets/e02da43b-53f2-43c6-bc67-b17dc6820a34" />
+
 ## 📥 安装
+
 
 ### 1. 禁用原版英文脚本
 在 mpv.conf 中添加一行：
 ``` ini 
 加载统计覆盖=否
 
-## 📥 预览
-
-
-
-
-
-<img width="1880" height="1046" alt="ScreenShot_2026-03-25_160256_267" src="https://github.com/user-attachments/assets/e02da43b-53f2-43c6-bc67-b17dc6820a34" />
