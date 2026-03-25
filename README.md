@@ -1,14 +1,14 @@
 # mpv 中文统计脚本 (stats.lua)
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/releases)
-[![GitHub stars](https://img.shields.io/github/stars/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/stargazers)
-[![GitHub license](https://img.shields.io/github/license/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/blob/main/LICENSE)
-[![GitHub last commit](https://img.shields.io/github/last-commit/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/commits/main)
+[![GitHub发布（按日期最新）](https://img.shields.io/github/v/release/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/releases)
+[![GitHub 星标](https://img.shields.io/github/stars/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/stargazers)
+[![GitHub 许可证](https://img.shields.io/github/license/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/blob/main/LICENSE)
+[![GitHub 最新提交](https://img.shields.io/github/last-commit/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/commits/main)
 
 本项目是 mpv 播放器内置统计脚本 `stats.lua` 的**完整中文翻译版**。  
 原版英文文件位于：[mpv-player/mpv/player/lua/stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)
 
-## ✨ 特性
+##✨ 特性
 
 - **中文界面**：所有统计信息、菜单选项、提示文字均翻译为中文
 - **功能完整**：与原版保持同步，支持所有快捷键和页面切换
@@ -18,6 +18,10 @@
 ## 📥 安装
 
 ### 1. 禁用原版英文脚本
-在 `mpv.conf` 中添加一行：
-```ini
-load-stats-overlay=no
+在 mpv.conf 中添加一行：
+``` ini 
+加载统计覆盖=否
+
+## 📥 预览
+
+<img width="3828" height="2139" alt="ScreenShot_2026-03-25_155420_859" src="https://github.com/user-attachments/assets/4a7e705a-9546-4561-a54a-fb17a6834524" />
