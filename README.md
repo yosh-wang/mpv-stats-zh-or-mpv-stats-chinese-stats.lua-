@@ -50,3 +50,4 @@ Add the following line to your `mpv.conf`:
 ```ini
 load-stats-overlay=no
 ```
+
