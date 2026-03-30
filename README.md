@@ -1,7 +1,7 @@
 # 🎬 mpv Chinese Stats Script (stats.lua)
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/releases)
-[![GitHub stars](https://img.shields.io/github/stars/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/stargazers)
 [![GitHub license](https://img.shields.io/github/license/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/blob/main/LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/commits/main)
 
@@ -34,7 +34,7 @@
 <p align="center">
   <img width="600" alt="Stats interface" src="screenshot.png">
 </p>
-
+<img width="450" height="900" alt="screenshot" src="https://github.com/user-attachments/assets/2d4d3565-5952-44e9-b6fe-7e136363d29e" />
 ---
 
 ## 📥 Installation / 安装
@@ -50,4 +50,18 @@ Add the following line to your `mpv.conf`:
 ```ini
 load-stats-overlay=no
 ```
+---
+
+## 📸 Preview / 预览
+
+<p align="center">
+  <img width="600" alt="Stats interface" src="screenshot.png">
+</p>
+<img width="450" height="900" alt="screenshot" src="https://github.com/user-attachments/assets/2d4d3565-5952-44e9-b6fe-7e136363d29e" />
+---
+
+
+
+
+
 
