@@ -40,7 +40,7 @@ Add the following line to your `mpv.conf`:
 
 ```ini
 load-stats-overlay=no
-
+---
 ## 📸 Preview / 预览
 
 <p align="center">
