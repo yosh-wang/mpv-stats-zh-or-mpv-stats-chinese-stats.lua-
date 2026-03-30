@@ -1830,7 +1830,7 @@ mp.observe_property('display-names', 'string', update_property_cache)
 mp.observe_property('hwdec-current', 'string', update_property_cache)
 
 -- ============================================================
--- 自动翻译模块 - 放在文件末尾
+-- 自动翻译模块 - 完整中文版
 -- ============================================================
 
 -- 通用词汇翻译表
@@ -1840,7 +1840,7 @@ local function auto_translate_text(text)
     end
     
     local translations = {
-        -- 页面标题
+        -- ==================== 页面标题 ====================
         ["Default"] = "默认信息",
         ["Extended Frame Timings"] = "扩展帧耗时",
         ["Cache Statistics"] = "缓存统计",
@@ -1848,7 +1848,7 @@ local function auto_translate_text(text)
         ["Tracks Info"] = "轨道信息",
         ["Internal Performance Info"] = "内部性能信息",
         
-        -- 文件/媒体信息
+        -- ==================== 文件/媒体信息 ====================
         ["File:"] = "文件:",
         ["Title:"] = "标题:",
         ["Duration:"] = "时长:",
@@ -1860,7 +1860,7 @@ local function auto_translate_text(text)
         [" sec"] = " 秒",
         [" sec)"] = " 秒)",
         
-        -- 视频/显示器信息
+        -- ==================== 视频/显示器信息 ====================
         ["Display:"] = "显示器:",
         ["Context:"] = "上下文:",
         ["A-V:"] = "音视频同步:",
@@ -1869,106 +1869,111 @@ local function auto_translate_text(text)
         ["Dropped Frames:"] = "丢帧:",
         [" (decoder)"] = " (解码器)",
         [" (output)"] = " (输出)",
-        ["Deinterlacing:"] = "反交错:",
+        ["Deinterlacing:"] = "去隔行:",
         ["Resolution:"] = "分辨率:",
         ["Output Resolution:"] = "输出分辨率:",
         ["Format:"] = "格式:",
         ["Levels:"] = "色阶:",
         ["Chroma Loc:"] = "色度位置:",
         ["Colormatrix:"] = "色彩矩阵:",
-        ["Primaries:"] = "原色:",
-        ["Transfer:"] = "传递函数:",
+        ["Primaries:"] = "基色:",
+        ["Transfer:"] = "传输:",
         ["Bitrate:"] = "码率:",
         ["Filters:"] = "滤镜:",
+        ["HW:"] = "硬解:",
         
-        -- HDR相关
+        -- ==================== HDR相关 ====================
         ["Mastering display:"] = "母版显示:",
         ["MaxCLL:"] = "最大内容亮度:",
         ["MaxFALL:"] = "最大帧平均亮度:",
         ["MaxRGB:"] = "最大RGB:",
         ["Avg:"] = "平均:",
         [" cd/m²"] = " cd/m²",
+        ["HDR10:"] = "HDR10:",
+        ["HDR10+:"] = "HDR10+:",
+        ["PQ(Y):"] = "PQ(Y):",
+        ["Max:"] = "最大:",
         
-        -- 音频信息
+        -- ==================== 音频信息 ====================
         ["Audio:"] = "音频:",
         ["AO:"] = "音频输出:",
         ["Device:"] = "设备:",
-        ["AO Volume:"] = "音频输出音量:",
+        ["AO Volume:"] = "音量:",
         [" (Muted)"] = " (静音)",
         ["A-V delay:"] = "音视频延迟:",
         ["Channels:"] = "声道数:",
         ["Sample Rate:"] = "采样率:",
         [" Hz"] = " Hz",
         
-        -- 视频轨道信息
+        -- ==================== 视频轨道信息 ====================
         ["Video:"] = "视频:",
         ["Image:"] = "图像:",
-        ["HW:"] = "硬件解码:",
-        ["Frame:"] = "帧号:",
-        ["Picture Type:"] = "图像类型:",
+        ["Frame:"] = "帧:",
+        ["Picture Type:"] = "画面类型:",
         ["Interlaced"] = "隔行扫描",
         ["Timecode:"] = "时间码:",
         ["GOP"] = "GOP",
         ["SMPTE"] = "SMPTE",
-        ["Estimated SMPTE"] = "估计 SMPTE",
+        ["Estimated SMPTE"] = "估计SMPTE",
         
-        -- 显示同步
+        -- ==================== 显示同步 ====================
+        ["DS:"] = "显示同步:",
         ["Mistimed:"] = "错时帧:",
         ["Delayed:"] = "延迟帧:",
         ["VSync Ratio:"] = "垂直同步比率:",
         ["VSync Jitter:"] = "垂直同步抖动:",
         
-        -- 缓存信息
+        -- ==================== 帧耗时页面 ====================
+        ["Frame Timings:"] = "帧耗时:",
+        ["(last/average/peak μs)"] = "(最后/平均/峰值 μs)",
+        ["Total"] = "总计",
+        
+        -- ==================== 缓存信息 ====================
         ["Cache Info:"] = "缓存信息:",
         ["Packet Queue:"] = "数据包队列:",
-        ["Readahead:"] = "预读量:",
+        ["Readahead:"] = "预读:",
         ["State:"] = "状态:",
-        ["reading"] = "正在读取",
-        ["seeking (to "] = "正在定位 (到 ",
-        ["eof"] = "文件末尾",
-        ["underrun"] = "数据不足",
+        ["reading"] = "读取中",
+        ["seeking (to "] = "定位中 (到 ",
+        ["eof"] = "文件尾",
+        ["underrun"] = "缓存不足",
         ["inactive"] = "空闲",
         ["Speed:"] = "速度:",
         ["Total RAM:"] = "总内存:",
         ["Forward RAM:"] = "前向内存:",
         ["Disk Cache:"] = "磁盘缓存:",
         ["(disabled)"] = "(已禁用)",
-        ["Media Seeks:"] = "媒体定位次数:",
-        ["Stream Seeks:"] = "流定位次数:",
+        ["Media Seeks:"] = "媒体定位:",
+        ["Stream Seeks:"] = "流定位:",
         ["Ranges:"] = "范围:",
         ["Start Cached:"] = "起始已缓存:",
         ["End Cached:"] = "结尾已缓存:",
         ["Range "] = "范围 ",
-        ["Unavailable."] = "不可用。",
+        ["Unavailable."] = "不可用",
         ["yes"] = "是",
         ["no"] = "否",
         
-        -- 帧耗时页面
-        ["Frame Timings:"] = "帧耗时:",
-        ["(last/average/peak μs)"] = "(最后/平均/峰值 μs)",
-        ["Total"] = "总计",
-        
-        -- 按键绑定页面
+        -- ==================== 按键绑定页面 ====================
         ["script: "] = "脚本: ",
         ["[unknown]"] = "[未知]",
         ["Filter bindings:"] = "过滤绑定:",
         ["(hint: scroll with "] = "(提示：使用 ",
         [" and search with "] = " 滚动，使用 ",
         
-        -- 轨道信息页面
+        -- ==================== 轨道信息页面 ====================
         ["ID:"] = "ID:",
-        ["Demuxer ID:"] = "解复用器 ID:",
-        ["Program ID:"] = "节目 ID:",
-        ["FFmpeg Index:"] = "FFmpeg 索引:",
+        ["Demuxer ID:"] = "解复用器ID:",
+        ["Program ID:"] = "节目ID:",
+        ["FFmpeg Index:"] = "FFmpeg索引:",
         ["Flags:"] = "标志:",
-        ["Codec:"] = "编码:",
+        ["Codec:"] = "编解码器:",
         ["Language:"] = "语言:",
         ["Channel Layout:"] = "声道布局:",
-        ["HLS Bitrate:"] = "HLS 码率:",
+        ["HLS Bitrate:"] = "HLS码率:",
         [" kbps"] = " kbps",
         ["Rotation:"] = "旋转:",
         ["Pixel Aspect Ratio:"] = "像素宽高比:",
-        ["Replay Gain:"] = "回放增益:",
+        ["Replay Gain:"] = "重放增益:",
         ["Track:"] = "音轨:",
         ["Album:"] = "专辑:",
         ["Gain:"] = "增益:",
@@ -1977,6 +1982,14 @@ local function auto_translate_text(text)
         ["Dolby Vision:"] = "杜比视界:",
         ["Profile:"] = "配置文件:",
         ["Level:"] = "级别:",
+        
+        -- ==================== 滤镜相关 ====================
+        [" (disabled)"] = " (已禁用)",
+        
+        -- ==================== 其他 ====================
+        ["A-V:"] = "音视频同步:",
+        ["Deinterlacing:"] = "去隔行:",
+        ["Context:"] = "上下文:",
     }
     
     -- 精确匹配
@@ -1985,7 +1998,7 @@ local function auto_translate_text(text)
         return result
     end
     
-    -- 模糊匹配
+    -- 模糊匹配（用于包含关系）
     for en, zh in pairs(translations) do
         if text:find(en, 1, true) then
             text = text:gsub(en, zh, 1)
@@ -1995,11 +2008,11 @@ local function auto_translate_text(text)
     return text
 end
 
--- 重写 append_general_perfdata 函数（按 0 页面）
+-- ==================== 性能标签翻译（按 0 页面） ====================
 local original_append_general_perfdata = append_general_perfdata
 append_general_perfdata = function(s)
-    -- 性能标签翻译映射表
     local perf_translations = {
+        -- 核心性能
         ["poll-time"] = "轮询耗时",
         ["demuxer/thread"] = "解封装器/线程",
         ["main/iterations"] = "主循环/单次耗时",
@@ -2008,6 +2021,8 @@ append_general_perfdata = function(s)
         ["osd/osd-render/time"] = "OSD渲染/总耗时",
         ["osd/sub-render/cpu"] = "字幕渲染/CPU",
         ["osd/sub-render/time"] = "字幕渲染/总耗时",
+        
+        -- VO 相关
         ["vo/iterations"] = "视频输出/单次耗时",
         ["vo/video-draw/cpu"] = "视频输出/绘制/CPU",
         ["vo/video-draw/time"] = "视频输出/绘制/总耗时",
@@ -2037,6 +2052,8 @@ append_general_perfdata = function(s)
     end
 end
 
+-- ==================== 重写核心函数 ====================
+
 -- 重写 append 函数
 local original_append = append
 append = function(s, str, attr)
@@ -2064,6 +2081,8 @@ append_property = function(s, prop, attr, excluded, cached)
     return original_append_property(s, prop, attr, excluded, cached)
 end
 
+-- ==================== 翻译各种函数返回值 ====================
+
 -- 翻译 pages 表中的 desc
 for k, page in pairs(pages) do
     if page.desc then
@@ -2084,3 +2103,7 @@ cmd_subject = function(cmd)
     local result = original_cmd_subject(cmd)
     return auto_translate_text(result)
 end
+
+-- ============================================================
+-- 自动翻译模块结束
+-- ============================================================
