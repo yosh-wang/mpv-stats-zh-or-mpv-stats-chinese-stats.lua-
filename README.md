@@ -7,7 +7,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/stargazers)
 
 
-
 > **Fully translated Chinese version** of mpv's built-in stats script `stats.lua`.  
 > **完整中文翻译版**
 > 
