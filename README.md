@@ -1,42 +1,43 @@
 # 🎬 mpv Chinese Stats Script (stats.lua)
 
 <!-- 第一行：社交互动核心指标 -->
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/stargazers"><img src="https://img.shields.io/github/stars/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub stars"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/forks"><img src="https://img.shields.io/github/forks/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub forks"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/watchers"><img src="https://img.shields.io/github/watchers/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub watchers"></a>
+[![GitHub stars](https://img.shields.io/github/stars/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/forks)
+[![GitHub watchers](https://img.shields.io/github/watchers/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/watchers)
 
 <!-- 第二行：版本发布与下载统计 -->
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases/latest"><img src="https://img.shields.io/github/v/release/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub release"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/tags"><img src="https://img.shields.io/github/v/tag/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub tag"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases"><img src="https://img.shields.io/github/release-date/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub release date"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases"><img src="https://img.shields.io/github/downloads/yosh-wang/mpv-stats.lua-zh-chinese-translation-/total" alt="GitHub downloads"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases/latest"><img src="https://img.shields.io/github/downloads/yosh-wang/mpv-stats.lua-zh-chinese-translation-/latest" alt="GitHub downloads/latest"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases/latest)
+[![GitHub tag](https://img.shields.io/github/v/tag/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/tags)
+[![GitHub release date](https://img.shields.io/github/release-date/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/yosh-wang/mpv-stats.lua-zh-chinese-translation-/total)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases)
+[![GitHub downloads/latest](https://img.shields.io/github/downloads/yosh-wang/mpv-stats.lua-zh-chinese-translation-/latest)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases/latest)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE)
 
 <!-- 第三行：提交活动与贡献者 -->
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main"><img src="https://img.shields.io/github/last-commit/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub last commit"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main"><img src="https://img.shields.io/github/commit-activity/m/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub commit activity (monthly)"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main"><img src="https://img.shields.io/github/commit-activity/w/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub commit activity (weekly)"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main"><img src="https://img.shields.io/github/commit-activity/y/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub commit activity (yearly)"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/graphs/contributors"><img src="https://img.shields.io/github/contributors/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub contributors"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub contributors (anon)"></a>
+[![GitHub last commit](https://img.shields.io/github/last-commit/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main)
+[![GitHub commit activity (monthly)](https://img.shields.io/github/commit-activity/m/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main)
+[![GitHub commit activity (weekly)](https://img.shields.io/github/commit-activity/w/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main)
+[![GitHub commit activity (yearly)](https://img.shields.io/github/commit-activity/y/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/commits/main)
+[![GitHub contributors](https://img.shields.io/github/contributors/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/graphs/contributors)
+[![GitHub contributors (anon)](https://img.shields.io/github/contributors-anon/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/graphs/contributors)
 
 <!-- 第四行：代码信息与技术栈 -->
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-"><img src="https://img.shields.io/github/languages/top/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub top language"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-"><img src="https://img.shields.io/github/languages/count/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub language count"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-"><img src="https://img.shields.io/github/repo-size/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub repo size"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-"><img src="https://img.shields.io/github/languages/code-size/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub code size"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-"><img src="https://img.shields.io/github/directory-file-count/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="GitHub file count"></a>
-<a href="https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-"><img src="https://img.shields.io/tokei/lines/github/yosh-wang/mpv-stats.lua-zh-chinese-translation-" alt="Lines of Code"></a>
+[![GitHub top language](https://img.shields.io/github/languages/top/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-)
+[![GitHub language count](https://img.shields.io/github/languages/count/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-)
+[![GitHub repo size](https://img.shields.io/github/repo-size/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-)
+[![GitHub code size](https://img.shields.io/github/languages/code-size/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-)
+[![GitHub file count](https://img.shields.io/github/directory-file-count/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-)
+[![Lines of Code](https://img.shields.io/tokei/lines/github/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-)
 
 <!-- 第五行：自定义静态徽章 -->
-<img src="https://img.shields.io/badge/Status-Stable-brightgreen" alt="Status">
-<img src="https://img.shields.io/badge/Maintained-Yes-brightgreen" alt="Maintained">
-<img src="https://img.shields.io/badge/MPV-Player-blue" alt="MPV">
-<img src="https://img.shields.io/badge/Language-Lua-red" alt="Language">
-<img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey" alt="Platform">
-<img src="https://img.shields.io/badge/Translation-100%25-brightgreen" alt="Translation">
-<img src="https://img.shields.io/badge/语言-中文-red" alt="Chinese">
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)
+![MPV](https://img.shields.io/badge/MPV-Player-blue)
+![Language](https://img.shields.io/badge/Language-Lua-red)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+![Translation](https://img.shields.io/badge/Translation-100%25-brightgreen)
+![Chinese](https://img.shields.io/badge/语言-中文-red)
+
 
 </div>
 
