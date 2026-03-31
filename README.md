@@ -1,5 +1,11 @@
 # 🎬 mpv Chinese Stats Script (stats.lua)
 
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/yosh-wang/mpv-stats.lua-zh-chinese-translation-/main.yml?branch=main)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/actions)
+
+[![releases](https://img.shields.io/github/v/release/yosh-wang/mpv-stats.lua-zh-chinese-translation-)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases/latest)
+
+[![downloads](https://img.shields.io/github/downloads/yosh-wang/mpv-stats.lua-zh-chinese-translation-/total)](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/releases)
+
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/releases)
 [![GitHub stars](https://img.shields.io/github/stars/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/stargazers)
 [![GitHub license](https://img.shields.io/github/license/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua)](https://github.com/yosh-wang/mpv-stats-zh-or-mpv-stats-chinese-stats.lua/blob/main/LICENSE)
