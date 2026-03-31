@@ -48,7 +48,6 @@
 [![Made with Love](https://img.shields.io/badge/Made%20with-❤️-red)](https://github.com/yosh-wang)
 
 
-</table>
 > **Fully translated Chinese version** of mpv's built-in stats script `stats.lua`.  
 > **完整中文翻译版**
 > 
