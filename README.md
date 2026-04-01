@@ -97,16 +97,8 @@ load-stats-overlay=no
   <img width="600" height="1000" alt="内部性能信息" src="https://github.com/user-attachments/assets/2d4d3565-5952-44e9-b6fe-7e136363d29e">
 </div>
 
-
-
-
-
 ---
 ---
----
----
----
-
 
 # 🎬 mpv Chinese Stats Script (stats.lua)
 
