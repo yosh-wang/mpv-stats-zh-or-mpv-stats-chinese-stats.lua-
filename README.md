@@ -83,6 +83,12 @@ load-stats-overlay=no
 
 ---
 
+## 📜 开源协议
+
+本项目基于 [MIT License](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE.md) 开源协议发布。
+
+---
+
 ## 📸 预览
 
 <div align="center">
@@ -91,11 +97,7 @@ load-stats-overlay=no
   <img width="600" height="1000" alt="内部性能信息" src="https://github.com/user-attachments/assets/2d4d3565-5952-44e9-b6fe-7e136363d29e">
 </div>
 
----
 
-## 📜 开源协议
-
-本项目基于 [MIT License](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE.md) 开源协议发布。
 
 
 
@@ -194,6 +196,13 @@ Copy `stats.lua` to mpv's scripts directory:
   
 ---
 
+
+## 📜 License / 
+
+This project is released under the [MIT License](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE.md).  
+
+---
+
 ## 📸 Preview / 
 
 <div align="center">
@@ -204,9 +213,4 @@ Copy `stats.lua` to mpv's scripts directory:
 
 ---
 
-## 📜 License / 
-
-This project is released under the [MIT License](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE.md).  
-
----
 
