@@ -44,16 +44,17 @@
 
 ---
 
-## 📖 项目简介
+## 📖 Project Overview / 项目简介
 
 > **Fully translated Chinese version** of mpv's built-in stats script `stats.lua`.  
 > **完整中文翻译版**
 
+This script translates all interfaces, prompts, and menus of mpv's built-in `stats.lua` into Chinese, making it easier to view playback information.  
 将 mpv 内置统计脚本 `stats.lua` 的所有界面、提示和菜单全部中文化，让你更轻松地查看播放信息。
 
-| 原版文件 | 中文版 |
-|:--------:|:------:|
-| [stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua) | 本项目 |
+| Original / 原版 | Chinese Version / 中文版 |
+|:---------------:|:-----------------------:|
+| [stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua) | This project / 本项目 |
 
 ---
 
