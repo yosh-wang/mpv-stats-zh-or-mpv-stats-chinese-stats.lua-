@@ -97,6 +97,10 @@ load-stats-overlay=no
 
 本项目基于 [MIT License](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE.md) 开源协议发布。
 
+
+
+---
+---
 ---
 ---
 ---
@@ -204,5 +208,5 @@ Copy `stats.lua` to mpv's scripts directory:
 
 This project is released under the [MIT License](https://github.com/yosh-wang/mpv-stats.lua-zh-chinese-translation-/blob/main/LICENSE.md).  
 
-
+---
 
