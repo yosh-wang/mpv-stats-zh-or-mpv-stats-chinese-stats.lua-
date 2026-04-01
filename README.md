@@ -181,10 +181,9 @@ load-stats-overlay=no
 
 ### 2️⃣ Install this script
 
-Copy `stats.lua` to mpv's scripts directory:  
-  Windows   –  `%APPDATA%\mpv\scripts\`
-  macOS     –  `~/.config/mpv/scripts/`
-  Linux     –  `~/.config/mpv/scripts/`
+- **Windows** — `%APPDATA%\mpv\scripts\`
+- **macOS**   — `~/.config/mpv/scripts/`
+- **Linux**   — `~/.config/mpv/scripts/`
   
 ---
 
