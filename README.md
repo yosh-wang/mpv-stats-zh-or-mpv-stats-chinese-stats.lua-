@@ -52,8 +52,6 @@
 | 同步内容 | `correctly override mp.input keybinds` |
 | 同步状态 | ✅ 已同步 |
 
-> 检查更新：[原版 stats.lua](https://github.com/mpv-player/mpv/blob/master/player/lua/stats.lua)
-
 ---
 
 ## ✨ 特性
